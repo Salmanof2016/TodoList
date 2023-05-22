@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background: royalblue;
+    margin: auto;
+    width: 100%;
+    padding: 2.5rem 0;
+    text-align: center;
+    color: white;
+}
+
+.formInput {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid aliceblue;
+    height: 4.5rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.inputButton {
+    margin-top: 1rem;
+    background: royalblue;
+    padding: 1rem 10rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.form {
+    text-align: center;
+}
+
+.itemTodo {
+    background: whitesmoke;
+    width: 30%;
+    box-shadow: 3px 4px 8px 0 #d3d3d3;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+.todoMainDiv {
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+}
+.itemTodoListDiv{
+    display: flex;
+}
+
+.itemTodoList {
+    background: white;
+    width: 27rem;
+    box-shadow: 3px 4px 8px 0 #d3d3d3;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.deleteBtn {
+    background: indianred;
+    padding: .8rem 3rem;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
